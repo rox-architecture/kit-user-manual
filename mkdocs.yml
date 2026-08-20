@@ -1,0 +1,23 @@
+site_name: KIT User Manual
+site_description: User documentation for the KIT architecture
+site_url: https://rox-architecture.github.io/kit-user-manual/
+
+repo_name: rox-architecture/kit-user-manual
+repo_url: https://github.com/rox-architecture/kit-user-manual
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/overview.md
+  - Assets:
+      - Asset Types: assets/asset-types.md
+  - Requirements:
+      - Overview: requirements/overview.md
+      - Namespaces: requirements/namespaces.md
+      - Operators: requirements/operators.md
+      - Conflict Detection: requirements/conflict-detection.md
+  - Examples:
+      - YOLO Container: examples/yolo-container.md
