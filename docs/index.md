@@ -1,17 +1,22 @@
-# Welcome to MkDocs
+# KIT User Manual
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the KIT User Manual.
 
-## Commands
+KIT provides a framework for describing, discovering, composing, and executing reusable assets across distributed data spaces and execution environments.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Documentation
 
-## Project layout
+- [Getting Started](getting-started/overview.md)
+- [Asset Types](assets/asset-types.md)
+- [Requirements](requirements/overview.md)
+- [YOLO Container Example](examples/yolo-container.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Main Concepts
+
+KIT distinguishes between:
+
+- **Assets** — reusable data, software, models, services, and workflows
+- **Capabilities** — functionality provided by an asset
+- **Requirements** — conditions that an execution environment or another asset must satisfy
+- **Execution environments** — platforms on which assets can be deployed and executed
+- **Composition** — combining compatible assets into executable workflows
