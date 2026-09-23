@@ -5,19 +5,31 @@ site_url: https://rox-architecture.github.io/kit-user-manual/
 repo_name: rox-architecture/kit-user-manual
 repo_url: https://github.com/rox-architecture/kit-user-manual
 
+markdown_extensions:
+  - attr_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
+
 theme:
   name: material
 
 nav:
   - Home: index.md
-  - Getting Started:
-      - Overview: getting-started/overview.md
-  - Assets:
-      - Asset Types: assets/asset-types.md
-  - Requirements:
-      - Overview: requirements/overview.md
-      - Namespaces: requirements/namespaces.md
-      - Operators: requirements/operators.md
-      - Conflict Detection: requirements/conflict-detection.md
-  - Examples:
-      - YOLO Container: examples/yolo-container.md
+  
+  - Installation: installation.md
+  - Getting Started: 
+      - 1. Asset Creation: getting-started/asset-creation.md
+      - 2. KIT Creation: getting-started/kit-creation.md
+      - 3. KIT Run:  getting-started/kit-run.md
+  - Documentation:
+    - System Architecture: documentation/system-architecture.md
+    - KIT Metadata: documentation/kit-metadata.md
+    - Requirement Specification: documentation/requirement-specification.md
+    - Graph Specification: documentation/graph-specification.md
+  - Example Collections: https://github.com/rox-architecture/kit-collections
