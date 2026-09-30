@@ -21,7 +21,6 @@ Overall, the JSON data from RODEOS becomes part of the asset metadata. Asset reg
         - Currently, OCI Registry or OCI archive types are not supported
     - `file_service`: a service end-point that returns a file or static data
     - `streaming_service`: a service end-point that streams data
-    - `workflow` = a KIT
 
 ## Video Guide
 
