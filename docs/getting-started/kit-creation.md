@@ -16,7 +16,6 @@ This example uses only the assets already exist in the dataspace (i.e., you don'
 
 - The KIT as a graph representation can be found in [Graph Specification](../documentation/graph-specification.md). With this, you or your robots can also programmatically create a KIT on-the-fly by generating the graph JSON without GUI.
 - Requirement specification language used to specify asset and KIT requirements are explained at [Requirement Specification](../documentation/requirement-specification.md)
-- List of available nodes can be found in [Available Nodes List]()
 
 ## Video Guide
 

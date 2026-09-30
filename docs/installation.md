@@ -34,7 +34,7 @@ Below video shows the installation process. Alternatively, written instructions 
 
 In the folder, rename the `.env.example` file to `.env` file.
 ```shell
-mv .env.example .env
+cp .env.example .env
 ```
 
 In the `.env` file, set the below environment variables.
