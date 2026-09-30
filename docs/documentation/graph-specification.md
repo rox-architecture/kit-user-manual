@@ -81,9 +81,9 @@ An edge `e = {source, target, source_port, target_port}`
 
 Important rules:
 
-- Every node has input `dep` port and output `dep` port for dependency indication only. `dep` ports does not pass any data.
-- For now, every node can have either no input data port or one input data port with the fixed port name `input-0`.
-- For now, every node can have either no output data port or one output data port with the fixed port name `output_0`.
+- Every node has input `dep` port and output `dep` port ONLY for dependency indication. Thus, `dep` ports do not carry any data.
+- For now, every node can have either one or no input data port with the fixed port name `input_0`.
+- For now, every node can have either onr or no output data port with the fixed port name `output_0`.
 
 Example:
 
